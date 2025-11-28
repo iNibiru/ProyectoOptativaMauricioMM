@@ -1,5 +1,6 @@
 # tarjeta.py
-from db_connection import get_conn
+from .db_connection import get_conn
+
 
 class Tarjeta:
     def __init__(self, id_, nombre, saldo=0.0):

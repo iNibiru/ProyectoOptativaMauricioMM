@@ -1,4 +1,5 @@
-from db_connection import get_conn
+from .db_connection import get_conn
+
 
 class Producto:
     def __init__(self, id_, tienda_id, nombre, precio):

@@ -1,5 +1,6 @@
 # tienda.py
-from db_connection import get_conn
+from .db_connection import get_conn
+
 
 class Tienda:
     def __init__(self, id_, nombre):

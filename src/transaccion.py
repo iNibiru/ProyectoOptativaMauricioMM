@@ -1,4 +1,5 @@
-from db_connection import get_conn
+from .db_connection import get_conn
+
 
 class Transaccion:
     def __init__(self, id_, tarjeta_id, producto_id, tipo, monto, descripcion):

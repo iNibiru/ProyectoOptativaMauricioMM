@@ -1,7 +1,8 @@
-from tarjeta import Tarjeta
-from tienda import Tienda
-from producto import Producto
-from transaccion import Transaccion
+from .tarjeta import Tarjeta
+from .tienda import Tienda
+from .producto import Producto
+from .transaccion import Transaccion
+
 
 class Feria:
     def crear_tarjeta(self, nombre: str) -> Tarjeta:
